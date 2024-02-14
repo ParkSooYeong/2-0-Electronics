@@ -1,0 +1,25 @@
+* C:\Users\user\Desktop\2-0 Electronics\Chapter 2\2-0-002 Test_Digital\Test_Digital-PSpiceFiles\TEST_DIGITAL.stl written on Thu Feb 15 02:15:52 2024
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! IN1 Digital IN2 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 160ms
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS IN1 STIM (1, 1) ;! CLOCKP 20ms 10ms 0 0
++   +0s 0
++   +10ms 1
++   Repeat Forever
++      +10ms 0
++      +10ms 1
++   EndRepeat
+.STIMULUS IN2 STIM (1, 1) ;! CLOCKP 40ms 20ms 0 0
++   +0s 0
++   +20ms 1
++   Repeat Forever
++      +20ms 0
++      +20ms 1
++   EndRepeat
