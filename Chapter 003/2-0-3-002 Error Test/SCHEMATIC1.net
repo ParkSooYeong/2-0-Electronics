@@ -1,0 +1,9 @@
+* source ERROR TEST
+C_C1         N00184 N00188  1n  TC=0,0 
+C_C2         0 N00188  1n  TC=0,0 
+C_C3         N00201 N00205  1n  TC=0,0 
+R_R1         N00177 N00184  1k TC=0,0 
+R_R2         0 N00205  1k TC=0,0 
+L_L1         N00188 N00201  10uH  
+V_V1         N00177 0 DC 0  
+R_R3         0 N00188  1G TC=0,0 
