@@ -1,0 +1,12 @@
+* source TRANSIENT
+D_D1         N00210 N00219 Dbreak 
+D_D2         0 N00219 Dbreak 
+D_D3         N00438 N00210 Dbreak 
+D_D4         N00438 0 Dbreak 
+R_R1         N00206 N00210  1m TC=0,0 
+L_L1         N00199 N00206  1m  
+L_L2         N00219 N00450  1u  
+V_V1         N00199 0  
++SIN 0V 170V 60Hz 0 0 0
+C_C1         N00450 N00438  1000u IC=170V TC=0,0 
+R_R2         N00450 N00438  20 TC=0,0 
