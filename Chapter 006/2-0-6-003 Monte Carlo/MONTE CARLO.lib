@@ -1,0 +1,6 @@
+* PSpice Model Editor - Version 17.2.0
+*$
+.model Rtherm RES R=1 DEV=5%
+*$
+.model RMonte1 RES R=1 DEV=2% LOT=10%
+*$

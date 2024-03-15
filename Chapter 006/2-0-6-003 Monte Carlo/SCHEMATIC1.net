@@ -1,0 +1,11 @@
+* source MONTE CARLO
+R_R1         N00267 N00313 RMonte1 1k
+R_R2         N00286 N00313 Rmonte1 1k
+R_R3         0 N00267 Rmonte1 1k
+R_R4         0 N00286 Rtherm { 1k * ( 1 + P * Pcoeff / Pnom ) }
+R_R5         N00282 N00286 Rbreak 2k
+R_R6         0 N00313 Rbreak 470
+R_R7         N00313 N00494 Rbreak 25
+V_V1         N00494 0 DC 1.35V  
+V_Meter         N00282 N00267 DC 0V  
+.PARAM  pcoeff=-0.06 p=0 pnom=1.0
