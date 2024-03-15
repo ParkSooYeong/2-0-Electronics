@@ -1,0 +1,14 @@
+* source PARAMETRIC
+X_U1         N00196 0 VCC VEE N00213 LF411
+R_R1         N00340 N00251  1k TC=0,0 
+R_R2         N00251 0  1k TC=0,0 
+R_R3         N00251 N00196  1k TC=0,0 
+R_R4         N00196 N00213  1k TC=0,0 
+R_R5         N00213 N00247  1k TC=0,0 
+C_C1         N00251 0  1n  TC=0,0 
+C_C2         N00247 0  {Cvar}  TC=0,0 
+V_V1         N00340 0  
++PULSE 0 1 0.1u 0.01u 
+V_V2         VCC 0 15V
+V_V3         VEE 0 -15V
+.PARAM  cvar=1n
