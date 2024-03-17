@@ -1,0 +1,8 @@
+* source DEVICE
+X_X1         N00205 N00231 0 2N1595
+R_R1         N00205 N00212  2.5 TC=0,0 
+R_R2         N00235 N00231  300 TC=0,0 
+V_V1         N00212 0  
++SIN 0 170V 60Hz 0 0 0
+V_V2         N00235 0  
++PULSE 0V 30V 2777.8us 1us 1us 100us 16666.7us
