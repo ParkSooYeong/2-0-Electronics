@@ -1,0 +1,5 @@
+* source KVL
+R_R1         N00099 N00106  1k TC=0,0 
+R_R2         N00106 N00113  3k TC=0,0 
+R_R3         N00113 0  6k TC=0,0 
+V_V1         N00099 0 10Vdc
