@@ -1,0 +1,6 @@
+* source KCL
+R_R1         N00173 N00177  1k TC=0,0 
+R_R2         N00177 0  1k TC=0,0 
+R_R3         N00177 0  1k TC=0,0 
+R_R4         N00177 0  1k TC=0,0 
+V_V1         N00173 0 10Vdc
