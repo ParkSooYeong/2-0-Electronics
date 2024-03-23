@@ -1,0 +1,9 @@
+* source EQUIVALENT
+R_R1         N00163 N00170  1k TC=0,0 
+R_R2         N00170 N00174  3k TC=0,0 
+R_R3         N00174 0  6k TC=0,0 
+R_R4         N00217 0  3k TC=0,0 
+R_R5         N00217 0  3k TC=0,0 
+R_R6         N00217 0  3k TC=0,0 
+V_V1         N00163 0 10Vdc
+V_V2         N00217 0 10Vdc
