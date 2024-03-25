@@ -1,0 +1,6 @@
+* source SUPERPOSITION
+R_R1         N00207 N00214  2k TC=0,0 
+R_R2         N00214 N00228  1k TC=0,0 
+R_R3         N00214 0  2k TC=0,0 
+I_I1         0 N00228 DC 2mAdc  
+V_V1         N00207 0 2Vdc
