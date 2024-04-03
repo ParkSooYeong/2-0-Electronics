@@ -1,0 +1,11 @@
+* source THEVENIN & NORTON
+R_R1         N00197 N00204  2k TC=0,0 
+R_R2         N00204 0  2k TC=0,0 
+R_RL         N00204 0  1k TC=0,0 
+R_Rth1         N00244 N00251  1k TC=0,0 
+R_RL1         N00251 0  1k TC=0,0 
+R_Rth2         N00331 0  1k TC=0,0 
+R_RL2         N00331 0  1k TC=0,0 
+V_Vin         N00197 0 2Vdc
+V_Veq         N00244 0 2Vdc
+I_Ieq         0 N00331 DC 2mA  
