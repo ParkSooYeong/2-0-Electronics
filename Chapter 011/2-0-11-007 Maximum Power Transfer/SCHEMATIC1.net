@@ -1,0 +1,5 @@
+* source MAXIMUM POWER TRANSFER
+R_Rs         N00083 N00087  1k TC=0,0 
+R_RL         N00087 0  {rval} TC=0,0 
+V_V1         N00083 0 1Vdc
+.PARAM  rval=1k
