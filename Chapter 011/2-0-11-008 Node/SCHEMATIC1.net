@@ -1,0 +1,7 @@
+* source NODE
+R_R1         N00177 N00181  1k TC=0,0 
+R_R2         N00181 N00185  1k TC=0,0 
+R_R3         N00181 N00204  1k TC=0,0 
+V_V1         N00177 0 2Vdc
+V_V2         N00185 0 6Vdc
+V_V3         N00204 0 -2Vdc
