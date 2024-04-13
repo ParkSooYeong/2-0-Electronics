@@ -1,0 +1,8 @@
+* source RLC
+R_R1         N00185 0  1 TC=0,0 
+R_R2         N00185 N00192  1 TC=0,0 
+R_R3         N00185 N00224  1 TC=0,0 
+L_L1         N00192 0  220uH  
+C_C1         N00224 0  220uF  TC=0,0 
+V_V1         N00185 0  
++PULSE 0 1 1m 0.1n 0.1n 3ms 5ms
