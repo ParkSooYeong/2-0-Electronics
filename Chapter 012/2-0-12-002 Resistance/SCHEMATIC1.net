@@ -1,0 +1,6 @@
+* source RESISTANCE
+R_R1         N00143 N00150  10k TC=0,0 
+R_R2         N00150 0  {rval} TC=0,0 
+V_V1         N00143 0  
++PULSE 0 1 0.5m 0.1n 0.1n 1ms 2ms
+.PARAM  rval=1k
