@@ -1,0 +1,7 @@
+* source CAPACITANCE
+C_C1         N00178 N00185  0.01uF  TC=0,0 
+C_C2         N00185 0  {cval}  TC=0,0 
+R_Rin         N00185 0  10mega TC=0,0 
+V_V1         N00178 0  
++PULSE 0 1 0.5m 0.1n 0.1n 1ms 2ms
+.PARAM  cval=0.01uf
