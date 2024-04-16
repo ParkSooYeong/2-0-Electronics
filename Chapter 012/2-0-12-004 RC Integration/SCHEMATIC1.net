@@ -1,0 +1,7 @@
+* source RC INTEGRATION
+R_R1         N00144 N00151  1k TC=0,0 
+R_Rin         N00151 0  10mega TC=0,0 
+C_C1         N00151 0  {cval}  TC=0,0 
+V_V1         N00144 0  
++PULSE 0 1 0.5m 0.1n 0.1n 1ms 2ms
+.PARAM  cval=0.01uf
