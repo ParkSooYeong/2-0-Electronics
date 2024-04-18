@@ -1,0 +1,6 @@
+* source CR DIFFERENTIAL
+C_C1         N00162 N00173  0.01uF  TC=0,0 
+R_R1         0 N00173  {rval} TC=0,0 
+V_V1         N00162 0  
++PULSE 0 10 0.5m 0.1n 0.1n 1ms 2ms
+.PARAM  rval=1k
