@@ -1,0 +1,6 @@
+* source RL DIFFERENTIAL
+R_R1         N00164 N00171  100 TC=0,0 
+L_L1         0 N00171  {lval}  
+V_V1         N00164 0  
++PULSE 0 10 0.5m 0.1n 0.1n 1ms 2ms
+.PARAM  lval=1mh
