@@ -1,0 +1,6 @@
+* source CL RESONANCE
+C_C1         N00162 VOUT  0.01uF  TC=0,0 
+L_L1         0 VOUT  {lval}  
+V_V1         N00162 0  
++PULSE 0 10 0.5m 0.1n 0.1n 1ms 2ms
+.PARAM  lval=1mh
