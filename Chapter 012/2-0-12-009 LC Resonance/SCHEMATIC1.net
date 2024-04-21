@@ -1,0 +1,6 @@
+* source LC RESONANCE
+L_L1         N00128 VOUT  10uH  
+C_C1         VOUT 0  {cval}  TC=0,0 
+V_V1         N00128 0  
++PULSE 0 10 0.5m 0.1n 0.1n 1ms 2ms
+.PARAM  cval=0.01uf
