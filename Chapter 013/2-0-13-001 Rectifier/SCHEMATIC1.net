@@ -1,0 +1,5 @@
+* source RECTIFIER
+D_D1         VIN VOUT D1N4148 
+V_V1         VIN 0  
++SIN 0 10V 60Hz 0 0 0
+R_R1         VOUT 0  1k TC=0,0 
