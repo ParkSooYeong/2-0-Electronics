@@ -1,0 +1,6 @@
+* source FILTER
+D_D1         VIN VOUT Dbreak 
+C_C1         VOUT 0  1000uF  TC=0,0 
+R_RL         VOUT 0  100 TC=0,0 
+V_V1         VIN 0  
++SIN 0 141V 60Hz 0 0 0
