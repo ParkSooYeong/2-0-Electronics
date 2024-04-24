@@ -1,0 +1,4 @@
+* source FORWARD & REVERSE
+R_R1         N00129 N00136  10 TC=0,0 
+D_D1         N00136 0 D1N4148 
+V_Vdc         N00129 0 0Vdc
