@@ -1,0 +1,10 @@
+* source RECTIFIER
+V_V1         N00287 0  
++SIN 0 12V 60Hz 0 0 0
+R_R3         0 N00190  1k TC=0,0 
+R_R2         N00294 N01704  1 TC=0,0 
+D_D1         N00131 N00190 Dbreak 
+V_V2         0 N00294  
++SIN 0 12V 60Hz 0 0 0
+R_R1         N00287 N00131  1 TC=0,0 
+D_D2         N01704 N00190 Dbreak 
