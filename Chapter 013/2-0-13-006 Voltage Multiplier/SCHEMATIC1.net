@@ -1,0 +1,7 @@
+* source VOLTAGE MULTIPLIER
+D_D1         0 N00209 Dbreak 
+C_C1         N00202 N00209  1000uF  TC=0,0 
+D_D2         N00209 VOUT Dbreak 
+C_C2         VOUT 0  1000uF  TC=0,0 
+V_V1         N00202 0  
++SIN 0 12V 60Hz 0 0 0
