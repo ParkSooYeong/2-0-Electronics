@@ -1,0 +1,4 @@
+* source CONSTANT VOLTAGE
+R_R1         N00130 VOUT  100 TC=0,0 
+V_V1         N00130 0 12Vdc
+D_D1         0 VOUT D1N750 
