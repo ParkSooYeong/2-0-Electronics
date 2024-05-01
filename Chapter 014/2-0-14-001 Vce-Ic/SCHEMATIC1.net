@@ -1,0 +1,4 @@
+* source VCE-IC
+Q_Q1         N00146 N00158 0 Q2N2222
+I_I1         0 N00158 DC 5mAdc  
+V_V1         N00146 0 5Vdc
