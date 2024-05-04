@@ -1,0 +1,7 @@
+* source EMITTER RESISTANCE
+Q_Q1         N00144 N00164 N00148 Q2N2222
+R_RB1         N00156 N00164  68k TC=0,0 
+R_RB2         N00164 0  24k TC=0,0 
+R_Rc         N00156 N00144  3.3k TC=0,0 
+R_Re         N00148 0  2k TC=0,0 
+V_V1         N00156 0 12Vdc
