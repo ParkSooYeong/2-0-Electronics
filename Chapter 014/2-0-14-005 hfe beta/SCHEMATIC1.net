@@ -1,0 +1,8 @@
+* source HFE BETA
+Q_Q1         N00119 N00112 0 Q2N2222
+R_R2         N00123 N00119  1k TC=0,0 
+R_R1         N00123 N00112  390k TC=0,0 
+C_C1         N00197 N00112  1n  TC=0,0 
+V_V2         N00123 0 20Vdc
+V_V1         N00197 0  
++SIN 0 10mV 1k 0 0 0
