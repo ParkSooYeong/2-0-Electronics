@@ -1,0 +1,6 @@
+* source OPERATION MODE
+Q_Q1         OUT N00135 0 Q2N2222
+R_R1         N00128 N00135  10k TC=0,0 
+R_R2         N00143 OUT  1k TC=0,0 
+V_Vdc         N00128 0 0Vdc
+V_Vcc         N00143 0 5Vdc
