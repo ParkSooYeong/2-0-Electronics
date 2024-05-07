@@ -1,0 +1,8 @@
+* source AMPLIFYING ACTION
+Q_Q1         OUT N00234 0 Q2N2222
+R_R1         IN N00234  10k TC=0,0 
+R_R2         N00242 OUT  1k TC=0,0 
+V_Vac         IN N00254  
++SIN 0 0.01 1k 0 0 0
+V_Vdc         N00254 0 0.9Vdc
+V_Vcc         N00242 0 5Vdc
