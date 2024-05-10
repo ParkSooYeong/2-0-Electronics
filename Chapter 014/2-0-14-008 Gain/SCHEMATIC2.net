@@ -1,0 +1,12 @@
+* source GAIN
+C_C2         N00259 OUT  10uF  TC=0,0 
+V_Vac         IN 0  
++SIN 0 0.5 10k 0 0 0
+V_Vcc         N00267 0 12Vdc
+C_C1         IN N00244  10uF  TC=0,0 
+Q_Q1         N00255 N00244 N00259 Q2N2222
+R_R2         N00244 0  22k TC=0,0 
+R_Re         N00259 0  2k TC=0,0 
+R_RL         OUT 0  10mega TC=0,0 
+R_R1         N00267 N00244  100k TC=0,0 
+R_Rc         N00267 N00255  10k TC=0,0 
