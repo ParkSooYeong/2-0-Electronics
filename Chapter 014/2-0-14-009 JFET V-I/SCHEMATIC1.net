@@ -1,0 +1,4 @@
+* source JFET V-I
+J_J1         N00152 N00145 0 J2N3819 
+V_VG         N00145 0 0Vdc
+V_VD         N00152 0 5Vdc
