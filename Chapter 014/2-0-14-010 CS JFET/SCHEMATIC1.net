@@ -1,0 +1,12 @@
+* source CS JFET
+J_J1         N00278 N00252 N00248 J2N3819 
+R_R1         N00295 N00278  3.6k TC=0,0 
+R_R2         N00248 0  500 TC=0,0 
+R_R3         N00252 N00313  1mega TC=0,0 
+R_R4         IN N00267  47k TC=0,0 
+R_R5         OUT N00313  10k TC=0,0 
+C_C1         N00267 N00252  10uF  TC=0,0 
+C_C2         N00278 OUT  10uF  TC=0,0 
+V_V1         IN N00313  
++SIN 0 1mV 1k 0 0 0
+V_VD         N00295 N00313 20Vdc
