@@ -1,0 +1,6 @@
+* source OP-AMP P(IDLE)
+.EXTERNAL OUTPUT VCC
+.EXTERNAL OUTPUT VEE
+X_U1A         0 0 VCC VEE 0 LM324
+V_VCC         VCC 0 +15Vdc
+V_VEE         VEE 0 -15Vdc
