@@ -1,0 +1,8 @@
+* source OP-AMP SWING
+.EXTERNAL OUTPUT VCC
+.EXTERNAL OUTPUT VEE
+X_U1A         N00198 0 VCC VEE OUT LM324
+V_VCC         VCC 0 +15Vdc
+V_VEE         VEE 0 -15Vdc
+V_Vin         N00198 0 1Vdc
+R_RL         OUT 0  3.5k TC=0,0 
