@@ -1,0 +1,9 @@
+* source OP-AMP SLEW RATE
+.EXTERNAL OUTPUT VCC
+.EXTERNAL OUTPUT VEE
+X_U1A         IN OUT VCC VEE OUT LM324
+R_RL         OUT 0  3.9k TC=0,0 
+V_V1         IN 0  
++PULSE -5 5 20us 0.1n 0.1n 60u 100u
+V_VCC         VCC 0 15Vdc
+V_VEE         VEE 0 -15Vdc
