@@ -1,0 +1,9 @@
+* source OP-AMP OUTPUT BIAS
+.EXTERNAL OUTPUT VCC
+.EXTERNAL OUTPUT VEE
+R_RL         OUT 0  {rval} TC=0,0 
+V_VCC         VCC 0 15Vdc
+X_U1A         IN 0 VCC VEE OUT LM324
+V_VEE         VEE 0 -15Vdc
+V_Vin         IN 0 1Vdc
+.PARAM  rval=1k
