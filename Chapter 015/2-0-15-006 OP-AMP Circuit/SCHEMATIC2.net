@@ -1,0 +1,11 @@
+* source OP-AMP CIRCUIT
+.EXTERNAL OUTPUT VCC
+.EXTERNAL OUTPUT VEE
+R_R2         N01306 OUT  2k TC=0,0 
+R_RL         OUT 0  3.5k TC=0,0 
+R_R1         0 N01306  1k TC=0,0 
+V_VEE         VEE 0 -15Vdc
+X_U1A         IN N01306 VCC VEE OUT LM324
+V_Vin         IN 0  
++SIN 0 500mV 1K 0 0 0
+V_VCC         VCC 0 15Vdc
