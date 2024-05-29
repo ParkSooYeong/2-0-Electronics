@@ -1,0 +1,100 @@
+(ExpressProject "Logic_Gate"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\logic_gate.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\logic_gate-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\logic_gate-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (File ".\logic_gate-pspicefiles\schematic3\schematic3.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\logic_gate-pspicefiles\schematic1\logic_gate_inverter.sim"
+        (DisplayName "SCHEMATIC1-Logic_Gate_Inverter")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\logic_gate-pspicefiles\schematic2\logic_gate_and.sim"
+        (DisplayName "SCHEMATIC2-Logic_Gate_AND")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\logic_gate-pspicefiles\schematic3\logic_gate_or.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\logic_gate-pspicefiles\schematic3\logic_gate_or.sim"
+        (DisplayName "SCHEMATIC3-Logic_Gate_OR")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (DigStim1
+      (FullPartName "DigStim1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (7408
+      (FullPartName "7408.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "user")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-001 logic gate\logic_gate.dsn")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-001 logic gate\logic_gate.dsn"
+         "SCHEMATIC3")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-001 logic gate\logic_gate.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-001 logic gate\logic_gate.dsn"
+         "SCHEMATIC2")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "91 287")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\2-0 ELECTRONICS\CHAPTER 016\2-0-16-001 LOGIC GATE\LOGIC_GATE.DSN")
+      (Schematic "SCHEMATIC3")
+      (Page "PAGE1"))))
