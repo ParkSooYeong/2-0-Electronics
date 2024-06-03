@@ -1,0 +1,50 @@
+* source DE MORGAN
+.EXTERNAL OUTPUT X
+U_B         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00298 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.2us 0  
++ 0.4us 1  
++ 0.6us 1 
++ 0.8us 0  
+U_C         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00302 
++ IO_STM
++ IO_LEVEL=0
++  0us 1  
++ 0.2us 0  
++ 0.4us 1  
++ 0.6us 0 
++ 0.8us 1  
+U_D         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00306 
++ IO_STM
++ IO_LEVEL=0
++  0us 1  
++ 0.2us 1  
++ 0.4us 0  
++ 0.6us 0 
++ 0.8us 1  
+U_A         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00294 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.2us 0  
++ 0.4us 0  
++ 0.6us 1 
++ 0.8us 1  
+X_U1A         N00334 X $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00294 N00298 N00310 $G_DPWR $G_DGND 7400 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2B         N00302 N00306 N00322 $G_DPWR $G_DGND 7400 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2C         N00310 N00322 N00334 $G_DPWR $G_DGND 7400 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
