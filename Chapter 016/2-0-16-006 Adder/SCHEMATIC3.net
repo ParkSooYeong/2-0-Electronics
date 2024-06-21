@@ -1,0 +1,68 @@
+* source ADDER
+.EXTERNAL OUTPUT S0
+.EXTERNAL OUTPUT C
+.EXTERNAL OUTPUT S1
+X_U1A         N00482 N00486 N00550 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         N00550 N00601 S1 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1C         N00474 N00478 S0 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00482 N00486 N00546 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2B         N00550 N00601 N00554 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2C         N00474 N00478 N00601 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N00546 N00554 C $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_A0         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00474 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.1us 1  
++ 0.2us 0  
++ 0.3us 1 
++ 0.4us 0  
++ 0.5us 1  
++ 0.6us 0  
++ 0.7us 1  
++ 0.8us 0  
++ 0.9us 1  
++ 1.0us 0  
++ 1.1us 1 
++ 1.2us 0 
++ 1.3us 1 
++ 1.4us 0 
++ 1.5us 1
+U_B0         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00478 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.2us 1  
++ 0.4us 0  
++ 0.6us 1 
++ 0.8us 0  
++ 1.0us 1  
++ 1.2us 0  
++ 1.4us 1  
+U_A1         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00482 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.4us 1  
++ 0.8us 0  
++ 1.2us 1 
+U_B1         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00486 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.8us 1  

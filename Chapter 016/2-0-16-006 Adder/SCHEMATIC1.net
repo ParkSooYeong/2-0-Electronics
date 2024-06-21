@@ -1,0 +1,27 @@
+* source ADDER
+.EXTERNAL OUTPUT S
+.EXTERNAL OUTPUT C
+X_U1A         N00194 N00198 S $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00194 N00198 C $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_A         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00194 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.2us 0  
++ 0.4us 1  
++ 0.6us 1 
++ 0.8us 0  
+U_B         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00198 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.2us 1  
++ 0.4us 0  
++ 0.6us 1 
++ 0.8us 0  
