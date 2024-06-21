@@ -1,0 +1,98 @@
+(ExpressProject "Adder"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\adder.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\adder-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\adder-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (File ".\adder-pspicefiles\schematic3\schematic3.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\adder-pspicefiles\schematic1\half_adder.sim"
+        (DisplayName "SCHEMATIC1-Half_Adder")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\adder-pspicefiles\schematic2\full_adder.sim"
+        (DisplayName "SCHEMATIC2-Full_Adder")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\adder-pspicefiles\schematic3\2bit_parallel_adder.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\adder-pspicefiles\schematic3\2bit_parallel_adder.sim"
+        (DisplayName "SCHEMATIC3-2Bit_Parallel_Adder")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "user")
+  (PartMRUSelector
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7408
+      (FullPartName "7408.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "2"))
+    (7486
+      (FullPartName "7486.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "2")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-006 adder\adder.dsn")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-006 adder\adder.dsn"
+         "SCHEMATIC3")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-006 adder\adder.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-006 adder\adder.dsn"
+         "SCHEMATIC2")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-006 adder\adder.dsn"
+         "SCHEMATIC3" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "0 286")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\2-0 ELECTRONICS\CHAPTER 016\2-0-16-006 ADDER\ADDER.DSN")
+      (Schematic "SCHEMATIC3")
+      (Page "PAGE1"))))
