@@ -1,0 +1,38 @@
+* source FLIP-FLOP
+.EXTERNAL OUTPUT Q
+.EXTERNAL OUTPUT NQ
+X_U1A         N00240 $D_HI N00248 N00236 N00244 Q NQ $G_DPWR $G_DGND 7476
++  PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_J         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00236 
++ IO_STM
++ IO_LEVEL=0
++  0s 1  
++ 0.2us 0  
++ 0.6us 1  
+U_K         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00244 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.2us 1  
++ 0.4us 0  
++ 0.6us 1 
++ 0.8us 0  
+U_CLR         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00248 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.075us 1  
+U_CP         STIM(1,1) $G_DPWR $G_DGND N00240 IO_STM IO_LEVEL=0 
++ 0 0
++ +0 1
++REPEAT FOREVER
++ +0.1us 0
++  +0.1us 1
++ ENDREPEAT
