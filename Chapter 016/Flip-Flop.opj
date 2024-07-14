@@ -1,0 +1,144 @@
+(ExpressProject "Flip-Flop"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\flip-flop.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\flip-flop-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\flip-flop-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (File ".\flip-flop-pspicefiles\schematic3\schematic3.net"
+      (Type "Report"))
+    (File ".\flip-flop-pspicefiles\schematic4\schematic4.net"
+      (Type "Report"))
+    (File ".\flip-flop-pspicefiles\schematic5\schematic5.net"
+      (Type "Report"))
+    (File ".\flip-flop-pspicefiles\schematic6\schematic6.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flip-flop-pspicefiles\schematic1\flip-flop_1.sim"
+        (DisplayName "SCHEMATIC1-Flip-Flop_1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flip-flop-pspicefiles\schematic2\flip-flop_2_d.sim"
+        (DisplayName "SCHEMATIC2-Flip-Flop_2_D")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flip-flop-pspicefiles\schematic3\flip-flop_3.sim"
+        (DisplayName "SCHEMATIC3-Flip-Flop_3")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flip-flop-pspicefiles\schematic4\flip-flop_4.sim"
+        (DisplayName "SCHEMATIC4-Flip-Flop_4")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flip-flop-pspicefiles\schematic5\flip-flop_5_jk.sim"
+        (DisplayName "SCHEMATIC5-Flip-Flop_5_JK")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\flip-flop-pspicefiles\schematic6\flip-flop_6_t.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\flip-flop-pspicefiles\schematic6\flip-flop_6_t.sim"
+        (DisplayName "SCHEMATIC6-Flip-Flop_6_T")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "user")
+  (PartMRUSelector
+    ($D_HI
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DigClock
+      (FullPartName "DigClock.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (7476
+      (FullPartName "7476.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7410
+      (FullPartName "7410.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "1"))
+    (7400
+      (FullPartName "7400.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "1"))
+    (7474
+      (FullPartName "7474.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-009 flip-flop\flip-flop.dsn")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-009 flip-flop\flip-flop.dsn"
+         "SCHEMATIC6")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-009 flip-flop\flip-flop.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-009 flip-flop\flip-flop.dsn"
+         "SCHEMATIC2")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-009 flip-flop\flip-flop.dsn"
+         "SCHEMATIC3")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-009 flip-flop\flip-flop.dsn"
+         "SCHEMATIC4")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 016\2-0-16-009 flip-flop\flip-flop.dsn"
+         "SCHEMATIC5")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 130 1766 130 589")
+        (Scroll "119 320")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\2-0 ELECTRONICS\CHAPTER 016\2-0-16-009 FLIP-FLOP\FLIP-FLOP.DSN")
+      (Schematic "SCHEMATIC6")
+      (Page "PAGE1"))))
