@@ -1,5 +1,0 @@
-* source DIVIDER
-R_R1         N00162 N00131  1k TC=0,0 
-V_V1         N00162 0 DC 10V  
-R_R2         N00131 0  2k TC=0,0 
-R_R3         N00131 0  4k TC=0,0 
