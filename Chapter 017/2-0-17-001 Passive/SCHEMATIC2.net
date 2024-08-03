@@ -1,0 +1,6 @@
+* source PASSIVE
+R_R1         N00086 N00093  1k TC=0,0 
+C_C1         0 N00093  1u  TC=0,0 
+V_V1         N00086 0  AC 5V
++PWL 0s 0V 1.0ms 0V 1.0001ms 5V 2.0ms 5V 3.0ms 5V 3.0001ms 0V 4.0ms 0V 5.0ms
++  0V 
