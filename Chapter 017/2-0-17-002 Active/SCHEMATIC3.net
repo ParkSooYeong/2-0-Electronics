@@ -1,0 +1,6 @@
+* source ACTIVE
+.EXTERNAL OUTPUT VCE
+.EXTERNAL OUTPUT IIN
+Q_Q1         VCE IIN 0 Q2N2222
+I_I1         0 IIN DC 200uAdc  
+V_V1         VCE 0 DC 5V  

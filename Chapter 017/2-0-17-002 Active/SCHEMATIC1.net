@@ -1,0 +1,4 @@
+* source ACTIVE
+D_D1         N00104 N00111 D1N4148 
+R_R1         0 N00111  1k TC=0,0 
+V_V1         N00104 0 DC 1V  

@@ -1,0 +1,6 @@
+* source ACTIVE
+.EXTERNAL OUTPUT VDD
+.EXTERNAL OUTPUT VG
+J_J1         VDD VG 0 J2N3819 
+V_V1         VDD 0 DC 30V  
+V_V2         VG 0 DC -3V  

@@ -1,0 +1,6 @@
+* source ACTIVE
+.EXTERNAL OUTPUT VG
+.EXTERNAL OUTPUT VDD
+V_V1         VDD 0 DC 10V  
+V_V2         VG 0 DC 5V  
+M_M1         VDD VG 0 0 IRF150

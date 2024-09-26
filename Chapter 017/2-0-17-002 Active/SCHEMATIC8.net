@@ -1,0 +1,5 @@
+* source ACTIVE
+X_X1         N00128 N00124 N00144 2N5444
+R_R1         0 N00124  1k TC=0,0 
+R_R2         N00128 N00136  1k TC=0,0 
+V_V1         N00136 N00144 DC 250V  
