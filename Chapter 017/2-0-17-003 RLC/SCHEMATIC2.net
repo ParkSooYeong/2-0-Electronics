@@ -1,0 +1,7 @@
+* source RLC
+L_L1         N00359 N00363  2mH  
+R_R1         N00111 N00359  10 TC=0,0 
+C_C1         N00363 0  2uF  TC=0,0 
+V_V1         N00111 0  
++PWL 0s 0mA 0.5ms 50mA 1.0ms 25mA 1.5ms 12.5mA 2.0ms 6.25mA 2.5ms 3.125mA
++  3.0ms 1.5625mA 

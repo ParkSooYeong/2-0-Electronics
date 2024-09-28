@@ -1,0 +1,6 @@
+* source RLC
+I_I1         N00111 0  AC 40mV
++PWL 0s 0mA 2ms 2mA 4ms 4mA 6ms 6mA 8ms 8mA 10ms 10mA 
+R_R1         N00111 0  1k TC=0,0 
+C_C1         N00111 0  2uF  TC=0,0 
+L_L1         N00111 0  2mH  
