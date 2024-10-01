@@ -1,0 +1,129 @@
+(ExpressProject "Rectification"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rectification.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\rectification-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\rectification-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (File ".\rectification-pspicefiles\schematic3\schematic3.net"
+      (Type "Report"))
+    (File ".\rectification-pspicefiles\schematic4\schematic4.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rectification-pspicefiles\schematic2\rectification-half_wave_small_signal.sim"
+        (DisplayName "SCHEMATIC2-Rectification-Half_wave_small_signal")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rectification-pspicefiles\schematic1\rectification-half_wave_large_signal.sim"
+        (DisplayName "SCHEMATIC1-Rectification-Half_wave_large_signal")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rectification-pspicefiles\schematic3\rectification-full_wave_large_signal.sim"
+        (DisplayName "SCHEMATIC3-Rectification-Full_wave_large_signal")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\rectification-pspicefiles\schematic4\rectification-full_wave_small_signal.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rectification-pspicefiles\schematic4\rectification-full_wave_small_signal.sim"
+        (DisplayName "SCHEMATIC4-Rectification-Full_wave_small_signal")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSRC
+      (FullPartName "VSRC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (uA741
+      (FullPartName "uA741.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "user")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-004 rectification\rectification.dsn")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-004 rectification\rectification.dsn"
+         "SCHEMATIC4")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-004 rectification\rectification.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-004 rectification\rectification.dsn"
+         "SCHEMATIC2")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-004 rectification\rectification.dsn"
+         "SCHEMATIC3")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-004 rectification\rectification.dsn"
+         "SCHEMATIC4" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 1714 78 537")
+        (Scroll "-61 262")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\2-0 ELECTRONICS\CHAPTER 017\2-0-17-004 RECTIFICATION\RECTIFICATION.DSN")
+      (Schematic "SCHEMATIC4")
+      (Page "PAGE1"))))
