@@ -1,0 +1,6 @@
+* source RECTIFICATION
+D_D1         N00135 N00142 D1N4148 
+V_V1         N00135 0  
++SIN 0V 70V 60Hz 0 0 0
+R_R1         N00142 N00149  1k TC=0,0 
+L_L1         0 N00149  10nH  
