@@ -1,0 +1,121 @@
+(ExpressProject "Filter"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\filter.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\filter-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\filter-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (File ".\filter-pspicefiles\schematic3\schematic3.net"
+      (Type "Report"))
+    (File ".\filter-pspicefiles\schematic4\schematic4.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filter-pspicefiles\schematic1\filter-a_second_order_infinite_gain_mfb_band_pass_filter.sim"
+        (DisplayName
+           "SCHEMATIC1-Filter-A_Second_Order_Infinite_Gain_MFB_Band_Pass_Filter")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filter-pspicefiles\schematic2\filter-a_second_order_infinite_gain_mfb_band_rejection_filter.sim"
+        (DisplayName
+           "SCHEMATIC2-Filter-A_Second_Order_Infinite_Gain_MFB_Band_Rejection_Filter")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filter-pspicefiles\schematic3\filter-all_pass_filter_phase_lag.sim"
+        (DisplayName "SCHEMATIC3-Filter-All_Pass_Filter_Phase_Lag")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\filter-pspicefiles\schematic4\filter-all_pass_filter_phase_lead.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\filter-pspicefiles\schematic4\filter-all_pass_filter_phase_lead.sim"
+        (DisplayName "SCHEMATIC4-Filter-All_Pass_Filter_Phase_Lead")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VSRC
+      (FullPartName "VSRC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LM324
+      (FullPartName "LM324.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "user")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-005 filter(2)\filter.dsn")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-005 filter(2)\filter.dsn"
+         "SCHEMATIC4")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-005 filter(2)\filter.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-005 filter(2)\filter.dsn"
+         "SCHEMATIC2")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 017\2-0-17-005 filter(2)\filter.dsn"
+         "SCHEMATIC3")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 650"))
+      (Tab 0))))
