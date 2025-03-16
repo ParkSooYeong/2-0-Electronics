@@ -1,0 +1,13 @@
+* source FILTER
+R_R1         N00241 N00248  1k TC=0,0 
+R_R2         N00261 0  1k TC=0,0 
+R_R3         N00515 N00522  1k TC=0,0 
+R_R4         N00537 0  1k TC=0,0 
+C_C1         N00248 0  1F  TC=0,0 
+C_C2         N00261 0  1F  TC=0,0 
+C_C3         N00522 0  0.159uF  TC=0,0 
+C_C4         N00537 0  0.159uF  TC=0,0 
+L_L1         N00248 N00261  2H  
+L_L2         N00522 N00537  10uH  
+V_V1         N00241 0  AC 1V 
+V_V2         N00515 0  AC 1V 

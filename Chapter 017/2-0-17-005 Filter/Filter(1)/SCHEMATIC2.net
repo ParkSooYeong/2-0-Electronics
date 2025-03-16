@@ -1,0 +1,6 @@
+* source FILTER
+R_R1         0 N00152  1k TC=0,0 
+R_R2         N00152 N00165  1k TC=0,0 
+C_C1         N00145 N00152  1u  TC=0,0 
+C_C2         0 N00165  1n  TC=0,0 
+V_V1         N00145 0  AC 1V 

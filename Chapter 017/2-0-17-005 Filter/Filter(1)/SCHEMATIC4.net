@@ -1,0 +1,7 @@
+* source FILTER
+R_R1         N00258 N00170  100 TC=0,0 
+C_C1         N00170 N00183  796nF  TC=0,0 
+R_R2         N00183 0  100 TC=0,0 
+L_L1         N00170 0  15mH  
+L_L2         N00183 0  15mH  
+V_V1         N00258 0  AC 1V 
