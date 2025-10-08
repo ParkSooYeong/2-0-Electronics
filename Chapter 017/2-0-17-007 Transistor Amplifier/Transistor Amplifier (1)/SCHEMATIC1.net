@@ -1,0 +1,14 @@
+* source TRANSISTOR AMPLIFIER
+.EXTERNAL OUTPUT VCC
+Q_Q1         N00269 N00285 N00346 Q2N2222
+R_R1         N00269 VCC  5k TC=0,0 
+R_R2         0 N00346  5k TC=0,0 
+R_R3         N00285 VCC  47k TC=0,0 
+R_R4         0 N00285  29k TC=0,0 
+R_R5         N00312 N00308  1k TC=0,0 
+R_R6         0 N00446  2k TC=0,0 
+C_C1         N00308 N00285  3uF  TC=0,0 
+C_C2         N00269 N00446  4uF  TC=0,0 
+C_C3         N00346 0  75uF  TC=0,0 
+V_V1         N00312 0 DC 5V AC 5V 
+V_V2         VCC 0 DC 5V  
