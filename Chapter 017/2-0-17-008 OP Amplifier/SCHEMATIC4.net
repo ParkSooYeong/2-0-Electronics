@@ -1,0 +1,28 @@
+* source OP AMPLIFIER
+.EXTERNAL OUTPUT VA
+.EXTERNAL OUTPUT VB
+.EXTERNAL OUTPUT VC
+.EXTERNAL OUTPUT VD
+.EXTERNAL OUTPUT VCC
+.EXTERNAL OUTPUT VEE
+X_U1         N00557 N00675 VCC VEE N00668 uA741
+R_R1         VA N00557  10k TC=0,0 
+R_R2         VB N00557  10k TC=0,0 
+R_R3         VC N00557  10k TC=0,0 
+R_R4         VD N00557  10k TC=0,0 
+R_R5         0 N00557  10k TC=0,0 
+R_R6         N00668 N00675  4k TC=0,0 
+R_R7         0 N00675  4k TC=0,0 
+V_V1         VCC 0 DC 15V  
+V_V2         VEE 0 DC -15V  
+V_V3         VA 0  
++PWL 0ms 0mV 0ms 0mV 0ms 0mV 1ms 0mV 1ms 0mV 1ms 200mV 2ms 200mV 2ms 200mV 
+V_V4         VB 0  
++PWL 2ms 400mV 3ms 400mV 3ms 400mV 3ms 600mV 4ms 600mV 4ms 600mV 4ms 800mV 5ms
++  800mV 
+V_V5         VC 0  
++PWL 5ms 800mV 5ms 1000mV 6ms 1000mV 6ms 1000mV 6ms 1200mV 7ms 1200mV 7ms
++  1200mV 7ms 1400mV 
+V_V6         VD 0  
++PWL 8ms 1400mV 8ms 1400mV 8ms 1600mV 9ms 1600mV 9ms 1600mV 9ms 1800mV 10ms
++  1800mV 10ms 1800mV 
