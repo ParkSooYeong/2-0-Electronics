@@ -1,0 +1,7 @@
+* source CONVERTER
+R_R1         N00199 0  100k TC=0,0 
+D_D1         N00215 N00199 D1N914 
+V_V1         N00215 0 2Vdc
+C_C1         N00192 N00199  1u  TC=0,0 
+V_V2         N00192 0  
++PULSE 5V -5V 0 0 0 0.5ms 1ms

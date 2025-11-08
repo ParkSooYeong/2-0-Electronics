@@ -1,0 +1,5 @@
+* source CONVERTER
+R_R1         N00120 N00127  100 TC=0,0 
+V_V1         N00120 0  AC 1V 
+D_D1         N00134 N00127 D1N750 
+D_D2         N00134 0 D1N750 

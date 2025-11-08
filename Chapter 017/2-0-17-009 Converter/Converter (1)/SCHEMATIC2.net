@@ -1,0 +1,7 @@
+* source CONVERTER
+.EXTERNAL OUTPUT Vin
+R_R1         0 N00507  4k TC=0,0 
+D_D1         VIN N00507 D1N916 
+C_C1         0 N00507  0.01u  TC=0,0 
+V_V1         VIN 0  
++SIN 0V 5V 2kHz 0 0 0

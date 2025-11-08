@@ -1,0 +1,8 @@
+* source CONVERTER
+V_V1         N01063 0  
++SIN 0V 3V 1kHz 0 0 0
+R_R1         N01063 N01078  10k TC=0,0 
+R_R2         N01089 N01085  4.2k TC=0,0 
+V_V2         N01089 0  
++PULSE 5V -5V 0 0 0 1ms 2ms
+Q_Q1         N01078 N01085 0 Q2N2222

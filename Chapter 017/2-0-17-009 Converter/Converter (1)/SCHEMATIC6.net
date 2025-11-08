@@ -1,0 +1,6 @@
+* source CONVERTER
+C_C1         N00692 0  1u  TC=0,0 
+D_D1         N00685 N00692 D1N914 
+R_R1         N00692 0  100k TC=0,0 
+V_V1         N00685 0  
++SIN 0V 5V 1000kHz 0 0 0

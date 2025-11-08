@@ -1,0 +1,9 @@
+* source CONVERTER
+R_R1         N02341 N02320  200 TC=0,0 
+R_R2         N02320 0  5k TC=0,0 
+V_V1         0 N02306 2.5V
+V_V2         N02310 0 2.5V
+D_D1         N02306 N02320 D1N914A 
+D_D2         N02320 N02310 D1N914A 
+V_V3         N02341 0  
++SIN 0V 10V 1kHz 0 0 0
