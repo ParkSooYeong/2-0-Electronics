@@ -1,0 +1,12 @@
+* source SIGNAL GENERATOR
+.EXTERNAL OUTPUT VCC
+.EXTERNAL OUTPUT Vo
+Q_Q1         N00269 N00280 N00284 Q2N2222
+R_R1         N00273 N00280  5k TC=0,0 
+R_R2         VCC N00269  1k TC=0,0 
+D_D1         N00284 VO D1N4148 
+L_L1         0 VO  10mH  
+C_C1         VO 0  1u  TC=0,0 
+V_V1         N00273 0  
++PULSE -2.5V 2V 0ms 0ms 0ms 1ms 2ms
+V_V2         VCC 0 DC 10V  
