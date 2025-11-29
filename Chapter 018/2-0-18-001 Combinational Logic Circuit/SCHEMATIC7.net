@@ -1,0 +1,43 @@
+* source COMBINATIONAL LOGIC CIRCUIT
+.EXTERNAL OUTPUT OUT
+U_A         STIM(1,1)
++ $G_DPWR $G_DGND
++ N04553 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.1us 1  
++ 0.2us 0  
++ 0.3us 1 
++ 0.4us 0  
++ 0.5us 1  
++ 0.6us 0  
++ 0.7us 1  
++ 0.8us 0  
++ 0.9us 1  
+U_C         STIM(1,1)
++ $G_DPWR $G_DGND
++ N04613 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.4us 1  
++ 0.8us 0  
+U_B         STIM(1,1)
++ $G_DPWR $G_DGND
++ N04557 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.2us 1  
++ 0.4us 0  
++ 0.6us 1 
++ 0.8us 0  
+X_U1A         N04553 N04557 N04629 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U1B         N04625 N04613 N04633 $G_DPWR $G_DGND 7408 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N04557 N04553 N04625 $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2B         N04629 N04633 OUT $G_DPWR $G_DGND 7432 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0

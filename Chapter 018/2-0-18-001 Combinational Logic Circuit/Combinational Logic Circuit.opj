@@ -1,0 +1,164 @@
+(ExpressProject "Combinational Logic Circuit"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\combinational logic circuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\combinational logic circuit-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\combinational logic circuit-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (File ".\combinational logic circuit-pspicefiles\schematic3\schematic3.net"
+      (Type "Report"))
+    (File ".\combinational logic circuit-pspicefiles\schematic4\schematic4.net"
+      (Type "Report"))
+    (File ".\combinational logic circuit-pspicefiles\schematic5\schematic5.net"
+      (Type "Report"))
+    (File ".\combinational logic circuit-pspicefiles\schematic6\schematic6.net"
+      (Type "Report"))
+    (File ".\combinational logic circuit-pspicefiles\schematic7\schematic7.net"
+      (Type "Report"))
+    (File ".\combinational logic circuit-pspicefiles\schematic8\schematic8.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic1\combinational_logic_circuit-delay_time_1.sim"
+        (DisplayName "SCHEMATIC1-Combinational_Logic_Circuit-Delay_Time_1")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic2\combinational_logic_circuit-delay_time_2.sim"
+        (DisplayName "SCHEMATIC2-Combinational_Logic_Circuit-Delay_Time_2")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic3\combinational_logic_circuit-nand_ex-or.sim"
+        (DisplayName "SCHEMATIC3-Combinational_Logic_Circuit-NAND_EX-OR")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic4\combinational_logic_circuit-nor_ex-or.sim"
+        (DisplayName "SCHEMATIC4-Combinational_Logic_Circuit-NOR_EX-OR")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic5\combinational_logic_circuit-4_bit_parity_checker.sim"
+        (DisplayName
+           "SCHEMATIC5-Combinational_Logic_Circuit-4_Bit_Parity_Checker")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic6\combinational_logic_circuit-full_subtracter.sim"
+        (DisplayName "SCHEMATIC6-Combinational_Logic_Circuit-Full_Subtracter")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic7\combinational_logic_circuit-majority.sim"
+        (DisplayName "SCHEMATIC7-Combinational_Logic_Circuit-Majority")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\combinational logic circuit-pspicefiles\schematic8\combinational_logic_circuit-1_bit_comparator.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\combinational logic circuit-pspicefiles\schematic8\combinational_logic_circuit-1_bit_comparator.sim"
+        (DisplayName "SCHEMATIC8-Combinational_Logic_Circuit-1_Bit_Comparator")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "user")
+  (PartMRUSelector
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (7408
+      (FullPartName "7408.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "1"))
+    (7486
+      (FullPartName "7486.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "2"))
+    (7432
+      (FullPartName "7432.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "1"))
+    (7400
+      (FullPartName "7400.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "2"))
+    (7402
+      (FullPartName "7402.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    ($D_HI
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC8")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC2")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC3")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC4")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC5")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC6")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC7")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-001 combinational logic circuit\combinational logic circuit.dsn"
+         "SCHEMATIC8" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 642"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 2227 52 733")
+        (Scroll "-590 -11")
+        (Zoom "134")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\2-0 ELECTRONICS\CHAPTER 018\2-0-18-001 COMBINATIONAL LOGIC CIRCUIT\COMBINATIONAL LOGIC CIRCUIT.DSN")
+      (Schematic "SCHEMATIC8")
+      (Page "PAGE1"))))
