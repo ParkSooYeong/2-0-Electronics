@@ -1,0 +1,67 @@
+* source SEQUENCIAL LOGIC CIRCUIT
+.EXTERNAL OUTPUT Q0
+.EXTERNAL OUTPUT Q1
+X_U1A         N00418 N00422 N00426 $G_DPWR $G_DGND 7486 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U2A         N00426 N00430 $G_DPWR $G_DGND 7404 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3A         N00430 Q1 N00434 $G_DPWR $G_DGND 7400 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U3B         N00434 N00442 Q0 $G_DPWR $G_DGND 7400 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+X_U4A         $D_HI Q0 N00454 $D_HI Q1 M_UN0001 $G_DPWR $G_DGND 7474 PARAMS:
++ IO_LEVEL=0 MNTYMXDLY=0
+U_X         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00418 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.1us 1  
++ 0.3us 0  
++ 0.7us 1 
++ 1.1us 0  
++ 1.5us 1  
++ 1.7us 0  
+U_Y         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00422 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.1us 1  
++ 0.3us 0  
++ 0.5us 1 
++ 0.7us 0  
++ 1.5us 1  
++ 1.7us 0  
+U_RST         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00442 
++ IO_STM
++ IO_LEVEL=0
++  0s 0  
++ 0.1us 1  
++ 0.9us 0  
++ 1.1us 1 
+U_CLK         STIM(1,1)
++ $G_DPWR $G_DGND
++ N00454 
++ IO_STM
++ IO_LEVEL=0
++  0us 1  
++ 0.1us 0  
++ 0.2us 1  
++ 0.3us 0 
++ 0.4us 1  
++ 0.5us 0  
++ 0.6us 1  
++ 0.7us 0  
++ 0.8us 1  
++ 0.9us 0  
++ 1.0us 1  
++ 1.1us 0 
++ 1.2us 1 
++ 1.3us 0 
++ 1.4us 1 
++ 1.5us 0

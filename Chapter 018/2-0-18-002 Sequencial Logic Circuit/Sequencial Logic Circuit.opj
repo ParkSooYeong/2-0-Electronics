@@ -1,0 +1,137 @@
+(ExpressProject "Sequencial Logic Circuit"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\sequencial logic circuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\sequencial logic circuit-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\sequencial logic circuit-pspicefiles\schematic2\schematic2.net"
+      (Type "Report"))
+    (File ".\sequencial logic circuit-pspicefiles\schematic3\schematic3.net"
+      (Type "Report"))
+    (File ".\sequencial logic circuit-pspicefiles\schematic4\schematic4.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\sequencial logic circuit-pspicefiles\schematic1\sequencial_logic_circuit-serial_comparator.sim"
+        (DisplayName "SCHEMATIC1-Sequencial_Logic_Circuit-Serial_Comparator")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\sequencial logic circuit-pspicefiles\schematic2\sequencial_logic_circuit-modulo-11_counter.sim"
+        (DisplayName "SCHEMATIC2-Sequencial_Logic_Circuit-Modulo-11_Counter")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\sequencial logic circuit-pspicefiles\schematic3\sequencial_logic_circuit-modulo-6_counter.sim"
+        (DisplayName "SCHEMATIC3-Sequencial_Logic_Circuit-Modulo-6_Counter")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\sequencial logic circuit-pspicefiles\schematic4\sequencial_logic_circuit-johnson_counter.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\sequencial logic circuit-pspicefiles\schematic4\sequencial_logic_circuit-johnson_counter.sim"
+        (DisplayName "SCHEMATIC4-Sequencial_Logic_Circuit-Johnson_Counter")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "user")
+  (PartMRUSelector
+    (DigClock
+      (FullPartName "DigClock.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    ($D_LO
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    ($D_HI
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (74194
+      (FullPartName "74194.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (STIM1
+      (FullPartName "STIM1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (7408
+      (FullPartName "7408.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7400
+      (FullPartName "7400.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (74163
+      (FullPartName "74163.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7474
+      (FullPartName "7474.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (7486
+      (FullPartName "7486.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-002 sequencial logic circuit\sequencial logic circuit.dsn")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-002 sequencial logic circuit\sequencial logic circuit.dsn"
+         "SCHEMATIC4")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-002 sequencial logic circuit\sequencial logic circuit.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-002 sequencial logic circuit\sequencial logic circuit.dsn"
+         "SCHEMATIC2")
+      (Path "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-002 sequencial logic circuit\sequencial logic circuit.dsn"
+         "SCHEMATIC3")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\user\desktop\2-0 electronics\chapter 018\2-0-18-002 sequencial logic circuit\sequencial logic circuit.dsn"
+         "SCHEMATIC4" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 642"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 78 2253 78 759")
+        (Scroll "-443 -11")
+        (Zoom "134")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\2-0 ELECTRONICS\CHAPTER 018\2-0-18-002 SEQUENCIAL LOGIC CIRCUIT\SEQUENCIAL LOGIC CIRCUIT.DSN")
+      (Schematic "SCHEMATIC4")
+      (Page "PAGE1"))))
