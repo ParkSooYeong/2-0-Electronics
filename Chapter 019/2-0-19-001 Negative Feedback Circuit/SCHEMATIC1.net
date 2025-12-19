@@ -1,0 +1,8 @@
+* source NEGATIVE FEEDBACK CIRCUIT
+E_LAPLACE1         N00225 0 LAPLACE {V(N00283)} {(1E7)/(1E7 + s * 1000 + s *
++  s)}
+E_DIFF1         N00283 0 VALUE {V(N00287,N00276)}
+E_GAIN1         N00276 0 VALUE {0.01 * V(N00225)}
+V_V1         N00287 0  
++PULSE 0 0.5V 1ms 0.01ms 0.01ms 10ms 10ms
+R_R1         N00225 0  1k TC=0,0 
