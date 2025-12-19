@@ -1,0 +1,9 @@
+* source VOLTAGE CONTROLLED OSCILLATORS
+C_C1         INT 0  1  TC=0,0 
+R_R1         INT 0  1 TC=0,0 
+G_G1         0 INT VALUE { K1 + V(N00175, 0) }
+V_V1         N00175 0  
++PWL 0 0V 5u 0V 5.001u 1V 10u 1V 
+E_E1         N00409 0 VALUE { K0 * SIN(TWOPI * (FC * TIME + V(INT))) }
+R_R2         N00409 0  1G TC=0,0 
+.PARAM  k0=1 twopi=6.28 k1=1meg fc=1meg
