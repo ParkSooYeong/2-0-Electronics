@@ -1,0 +1,9 @@
+* source AMPLITUDE MODULATION
+E_MULT1         N00153 0 VALUE {V(N00160)*V(N00146)}
+V_Vcarrier         N00146 0  
++SIN 0 {CarrierPK} 10kHz 0 0 0
+V_Vmod         N00160 0  
++SIN {Offset} {ModulatorPK} 1kHz 0 0 0
+R_R1         N00153 0  1G TC=0,0 
+.PARAM  modindex=0.8 offset={carrierpk} modulatorpk={carrierpk * modindex}
++  carrierpk=1.0
