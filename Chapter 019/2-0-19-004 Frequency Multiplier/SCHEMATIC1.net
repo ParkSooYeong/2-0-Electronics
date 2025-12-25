@@ -1,0 +1,8 @@
+* source FREQUENCY MULTIPLIER
+E_E1         N00223 0 VALUE { 2 * SIN((V(N)-1) * ALPI * TIME) * COS(ALPI *
++  TIME) }
+E_E2         N00235 0 VALUE { SIN((V(N) - 2) * ALPI * TIME) }
+E_DIFF1         N00323 0 VALUE {V(N00223,N00235)}
+R_R1         N00323 0  1G TC=0,0 
+V_V1         N 0 5Vdc
+.PARAM  alpi={twopi * fc} twopi=6.28 fc=1meg
