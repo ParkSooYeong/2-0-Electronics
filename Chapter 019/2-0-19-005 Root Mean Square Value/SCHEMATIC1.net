@@ -1,0 +1,8 @@
+* source ROOT MEAN SQUARE VALUE
+C_C1         INT 0  1  TC=0,0 
+R_R1         INT 0  1G TC=0,0 
+G_G1         0 INT VALUE { V(N00221, 0) * V(N00221, 0) }
+E_E1         N00393 0 VALUE { IF(TIME <= 0, 0, SQRT(V(INT)/(TIME))) }
+R_R2         N00393 0  1k TC=0,0 
+V_V1         N00221 0  
++SIN 0V 1V 1kHz 0 0 0
